@@ -17,13 +17,14 @@ int main() {
 
     /* printf("Data Input: %d\n", var->input); */
     printf("COUNT %d\n", var->nBil);
+    printf("SORTED ");
     for (int i = 0; i < n+1; i++) {
-            printf("SORTED %d\n", sorted[i]);
+            printf(sorted[i]);
     }
-    printf("MEDIAN %d\n", var->median);
+    printf("\nMEDIAN %d\n", var->median);
 }
 
-data* newData() {
+data* newData() {  
     data* new = malloc(sizeof(data));
 
     // data masuk
