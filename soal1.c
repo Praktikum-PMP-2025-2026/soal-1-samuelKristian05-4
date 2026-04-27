@@ -19,7 +19,7 @@ int main() {
     printf("COUNT %d\n", var->nBil);
     printf("SORTED ");
     for (int i = 0; i < n+1; i++) {
-            printf(sorted[i]);
+        printf(var->sorted[i]);
     }
     printf("\nMEDIAN %d\n", var->median);
 }
