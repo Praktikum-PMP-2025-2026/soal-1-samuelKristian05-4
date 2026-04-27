@@ -16,11 +16,11 @@ int main() {
     data* var = newData();
 
     /* printf("Data Input: %d\n", var->input); */
-    printf("COUNT: %d\n", var->nBil);
+    printf("COUNT %d\n", var->nBil);
     for (int i = 0; i < n+1; i++) {
-            printf("SORTED: %d\n", sorted[i]);
+            printf("SORTED %d\n", sorted[i]);
     }
-    printf("MEDIAN: %d\n", var->median);
+    printf("MEDIAN %d\n", var->median);
 }
 
 data* newData() {
